@@ -1,0 +1,319 @@
+@font-face {
+	font-family: 'Merriweather';
+	src: url(fonts/Merriweather/Merriweather Light.ttf);
+}
+a.home:hover {
+	border: 1px;
+ 	border-color: #3e3e3e;
+ 	border-style: solid;
+ 	padding: 18px 24px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+a.home {
+	border: 1px;
+ 	border-color: transparent;;
+ 	border-style: solid;
+ 	padding: 18px 24px;
+}
+.bg {
+	background-image: url(../img/header/background.png);
+}
+.wrapper {
+	margin: 0;
+	padding-left: 1155px;
+}
+.navigation {
+	padding-top: 75px;
+}
+.navigation li {
+	display:inline-block;
+	font-size: 18px;
+  font-family: "Merriweather";
+	margin-right: 44px;
+}
+a {
+  text-decoration: none;
+  color: #3e3e3e;
+	font-family: "Merriweather";
+}
+.title {
+  font-size: 40px;
+    font-family: "Merriweather";
+    color: #3e3e3e;
+    line-height: 55px;
+    padding-top: 315px;
+    padding-bottom: 375px;
+}
+.title>img {
+	padding-left: 110px;
+}
+span {
+	padding-left: 18px;
+}
+.columns-wrapper {
+	background-image: url(../img/3-columns/bg2.png);
+}
+.column {
+	display: inline-block;
+	font-family: "Merriweather";
+	padding: 67px 0 92px 208px;
+	text-align: center;
+}
+.bold_upper {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.column-light {
+	line-height: 20px;
+}
+.specials {
+	width: 1488px;
+    margin: 0 auto;
+	padding-bottom: 134px;
+}
+.specials>h2 {
+	text-align: center;
+  font-size: 40px;
+	font-family: "Merriweather";
+  padding-top: 80px;
+	margin-bottom: 33px;
+}
+.specials>img {
+	margin-left: 50%;
+  transform: translateX(-50%);
+	margin-bottom: 57px;
+}
+.specials-set {
+	font-size: 0;
+  margin-bottom: -30px;
+}
+.specials-item {
+	width: 248px;
+	font-size: 0;
+	display: inline-block;
+}
+.specials-text {
+	width: 248px;
+  height: 248px;
+  display: inline-block;
+	background-color: #f8f8f8;
+	vertical-align: top;
+}
+.text-square {
+	font-family: "Merriweather";
+	font-size: 16px;
+	text-align: center;
+  padding: 70px 31px 53px 39px;
+}
+.line {
+	padding-bottom: 18px;
+  padding-top: 18px;
+}
+.light {
+	padding-bottom: 18px;
+	line-height: 20px;
+}
+.bold {
+	font-size: 18px;
+	font-weight: bold;
+}
+.about-us {
+	background-color: #eeefef;
+}
+.about-us-wrapper {
+	width: 608px;
+  display: inline-block;
+	vertical-align: top;
+	padding-left: 205px;
+  padding-top: 250px;
+	padding-right: 80px;
+	font-size: 0;
+}
+.about-us-wrapper>h2 {
+	font-size: 40px;
+	font-family: "Merriweather";
+  text-align: center;
+	padding-bottom: 32px;
+}
+.decor {
+	margin-left: 50%;
+  transform: translateX(-50%);
+	padding-bottom: 60px;
+}
+.about-us-wrapper>p {
+	text-align: center;
+  font-size: 30px;
+	font-family: "Merriweather";
+	line-height: 50px;
+	width: 625px;
+}
+.signature {
+	margin-left: 50%;
+	padding-top: 55px;
+  padding-left: 55px;
+}
+.bg-about-us {
+	background-image: url(../img/about-us/bg-about-us.png);
+}
+.menu h2 {
+	font-size: 40px;
+	font-family: "Merriweather";
+  text-align: center;
+  padding-top: 70px;
+}
+.menu img {
+	margin-left: 50%;
+  transform: translateX(-50%);
+	padding-top: 35px;
+}
+.menu ul {
+	text-align: center;
+	padding-bottom: 105px;
+}
+.menu-set {
+	font-size: 18px;
+  width: 1493px;
+	margin-left: 50%;
+  transform: translateX(-50%);
+}
+.left-row {
+	width: 635px;
+	display: inline-block;
+}
+.right-row {
+	width: 635px;
+  display: inline-block;
+  float: right;
+}
+.name1 {
+	padding-bottom: 5px;
+	font-family: "Merriweather";
+}
+.name2 {
+	font-size: 14px;
+	padding-bottom: 45px;
+	font-family: "Merriweather";
+  font-style: italic;
+}
+left-row {
+	font-size: 18px;
+}
+.contact-bg {
+	background-image: url(../img/contact/contact-bg.png);
+	height: 965px;
+}
+.contact-wrapper {
+	width: 580px;
+	padding-left: 1124px;
+	font-family: "Merriweather"
+}
+.contact-wrapper h2 {
+  font-size: 40px;
+  text-align:center;
+	padding-top: 70px;
+	padding-bottom: 35px;
+}
+.contact-wrapper img {
+	margin-left: 50%;
+  transform: translateX(-50%);
+	padding-bottom: 63px;
+}
+.address {
+	display: inline-block;
+	width: 200px;
+	padding-right: 163px;
+}
+.address h3 {
+	padding-bottom: 19px;
+	text-transform: uppercase;
+	font-size: 19px;
+}
+.address p {
+	line-height: 20px;
+	font-size: 16px;
+}
+.reservations {
+	display: inline-block;
+}
+.reservations h3 {
+	padding-bottom: 19px;
+	text-transform: uppercase;
+	font-size: 19px;
+}
+.reservations p {
+	line-height: 20px;
+	font-size: 16px;
+}
+.contact-form h2 {
+	text-transform: uppercase;
+  font-size: 18px;
+	text-align: left;
+}
+.name {
+	border: none;
+	background: transparent;
+	width: 255px;
+	border-bottom: 1px solid #3c3c3c;
+}
+.name-1 {
+	width: 255px;
+	display: inline-block;
+	padding-top: 42px;
+}
+.email {
+	border: none;
+	background: transparent;
+	width: 255px;
+	border-bottom: 1px solid #3c3c3c;
+}
+.email1 {
+	width: 255px;
+	display: inline-block;
+	padding-left: 57px;
+}
+.message {
+	border: none;
+	background: transparent;
+	width: 573px;
+	border-bottom: 1px solid #3c3c3c;
+}
+.message1 {
+	padding-top: 72px;
+}
+input:focus {
+	outline: none;
+}
+.send {
+	font-family: "Merriweather";
+	background: transparent;
+	border: 1px;
+  border-color: #3e3e3e;
+  border-style: solid;
+  padding: 17px 28px;
+	margin-left: 239px;
+	font-size: 18px;
+	margin-top: 53px;
+}
+.social-wrapper>p {
+	padding-top: 192px;
+	padding-left: 804px;
+	padding-right: 483px;
+	display: inline-block;
+	font-size: 18px;
+}
+.facebook {
+	border: 1px;
+  border-color: #3e3e3e;
+  border-style: solid;
+  padding: 13px 20px;
+	margin-right: 15px;
+}
+.instagram {
+	border: 1px;
+  border-color: #3e3e3e;
+  border-style: solid;
+  padding: 12px 15px;
+}
